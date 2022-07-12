@@ -13,6 +13,8 @@ body {
     height: 70vh;
 }
 
+/* Estilização do Popup */
+
 .popup-wrapper {
     display: none;
     background-color: rgba(0, 0, 0, 0.6);

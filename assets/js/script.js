@@ -1,3 +1,5 @@
+//* Função de cada operação
+
 function somar() {
     let input1 = document.querySelector("#n1")
     let input2 = document.querySelector("#n2")
@@ -37,6 +39,8 @@ function dividir() {
     let resultado = parseInt(n1) / parseInt(n2)
     document.getElementById("result").innerHTML = "<h3>" + resultado + "</h3>"
 }
+
+//* Trecho responsável pela exibição do Popup com o resultado
 
 let pops = document.getElementsByClassName("pop")
 let popup = document.querySelector(".popup-wrapper")
