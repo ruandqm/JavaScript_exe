@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em Js</title>
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div clas="col justify-content-center text-center">
+                <div class="text-center mb-5">
+                    <h2>Calculadora em Javascript</h1>
+                </div>
+            </div>
+        </div>
+        <section class="h-100 bg mt-2">
+            <div class="container h-100%">
+                <div class="row justify-content-sm-center align-items-center">
+
+
+                    <div class="card shadow-lg">
+                        <div class="card-body p-5">
+                            <p class="text-muted text-center mb-5">Digite dois números e escolha a operação a ser
+                                realizada.
+                            </p>
+                            <div class="row m-4">
+                                <div class="col">
+                                    <input id="n1" type="text" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <input id="n2" type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align items-center m-4">
+                                <div class="col mt-3">
+                                    <button onclick="somar()" type="button" class="btn btn-primary w-100 h-100 pop">
+                                        Adicionar
+                                    </button>
+                                </div>
+                                <div class="col mt-3">
+                                    <button onclick="subtrair()" type="button" class="btn btn-primary w-100 h-100 pop">
+                                        Subtrair </button>
+                                </div>
+                                <div class="col mt-3">
+                                    <button onclick="multiplicar()" type="button"
+                                        class="btn btn-primary w-100 h-100 pop">
+                                        Multiplicar
+                                    </button>
+                                </div>
+                                <div class="col mt-3">
+                                    <button onclick="dividir()" type="button" class="btn btn-primary w-100 h-100 pop">
+                                        Dividir
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Popup com o resultado do calculo-->
+        <div class="popup-wrapper">
+            <div class="card popup">
+                <div class="popup-content">
+                    <h2>O resultado é:</h2>
+                    <span id="result"></span>
+                    <button type="button" class="btn btn-primary popup-close mt-3"> OK </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Popup -->
+
+    </div>
+
+
+
+    <!--JS-->
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!--Main Js-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
