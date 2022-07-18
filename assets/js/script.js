@@ -6,7 +6,7 @@ function somar() {
     let n1 = input1.value
     let n2 = input2.value
 
-    let resultado = parseInt(n1) + parseInt(n2)
+    let resultado = n1 + n2
     document.getElementById("result").innerHTML = "<h3>" + resultado + "</h3>"
 }
 
@@ -16,7 +16,7 @@ function subtrair() {
     let n1 = input1.value
     let n2 = input2.value
 
-    let resultado = parseInt(n1) - parseInt(n2)
+    let resultado = n1 - n2
     document.getElementById("result").innerHTML = "<h3>" + resultado + "</h3>"
 }
 
@@ -26,7 +26,7 @@ function multiplicar() {
     let n1 = input1.value
     let n2 = input2.value
 
-    let resultado = parseInt(n1) * parseInt(n2)
+    let resultado = n1 * n2
     document.getElementById("result").innerHTML = "<h3>" + resultado + "</h3>"
 }
 
@@ -36,7 +36,7 @@ function dividir() {
     let n1 = input1.value
     let n2 = input2.value
 
-    let resultado = parseInt(n1) / parseInt(n2)
+    let resultado = n1 / n2
     document.getElementById("result").innerHTML = "<h3>" + resultado + "</h3>"
 }
 
